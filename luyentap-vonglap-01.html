@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>luyentap</title>
+</head>
+<body>
+<script>
+    var a = parseInt(prompt("Nhap Nhiet Do Vao Day Anh oi"));
+    while ( a >100 || a < 20) {
+        if (a > 100) {
+            alert("nhiet do cao qua, nhap lai di anh oi");
+           a = parseInt(prompt('nhap lai nhiet do nao anh oi'));
+        }
+        if (a < 20) {
+            alert('nhiet do thap qua, nhap lai di anh oi');
+           a = parseInt(prompt('nhap lai nhiet do nao anh oi'));
+        }
+        if ( a>=20 && a<=100){
+            alert('nhiet do chuan roi anh oi');
+        }
+    }
+</script>
+</body>
+</html>
