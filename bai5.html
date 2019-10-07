@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let n1 =0;
+    let n2 =1;
+    let n3,i;
+    let result = 0;
+    let  N = parseInt(prompt("Ban can lay bao nhieu so fibonaci: "))
+    for ( i = 0; i < N; i++){
+        n3 =n1 +n2;
+        n1 =n2;
+        n2 = n3;
+        result =n1 +n2 +n3;
+      }
+    document.write("tong cua "+ N + " so fibonaci dau tien la: " +result);
+</script>
+
+</body>
+</html>
